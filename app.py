@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import pandas as pd
 
-with open("Loan_model.pkl","rb") as pickle_in:
+with open("Loan_Model.pkl","rb") as pickle_in:
     model=pickle.load(pickle_in)
 
 st.title("Credit Wise Loan Recommendation System")
